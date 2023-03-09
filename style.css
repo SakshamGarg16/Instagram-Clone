@@ -89,7 +89,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 1rem;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 .box {
   text-align: center;
@@ -324,4 +324,9 @@ body {
 .nam{
   margin-left: 60px;
   margin-top: 20px;
+}
+
+.dark {
+  align-items: right;
+  margin-left: 100px;
 }
