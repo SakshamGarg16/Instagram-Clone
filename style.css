@@ -255,13 +255,12 @@ body {
 
 .main-post {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  justify-content: space-around;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 100px));
   gap: 11px;
 }
 
-.post-box {
-  width: 300px;
-}
+
 
 .post-box img {
   width: 100%;
@@ -269,41 +268,6 @@ body {
   object-fit: cover;
   border-radius: 0.5rem;
 }
-
-.post-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.post-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  border: 2px solid #e2336b;
-}
-
-.post-img img {
-  width: 27px;
-  height: 27px;
-  object-fit: cover;
-  border-radius: 50%;
-  object-position: center;
-}
-
-.post-profile {
-  display: flex;
-  align-items: center;
-}
-.post-profile h3 {
-  font-size: 12px;
-  font-weight: 600px;
-  margin-left: 5px;
-}
-
 .likes {
   display: flex;
   align-items: center;
@@ -333,4 +297,34 @@ body {
 
 .More{
   margin-top: 100px;
+}
+.container{
+  margin-bottom: 200px;
+}
+.imgbox{
+  position: absolute;
+  width: 31%;
+  height: 31%;  
+}
+
+.post-box .container:hover .imgbox{
+  opacity: 0.5;
+
+}
+.post-box .container:hover .content{
+
+ opacity: 1;
+
+}
+.container-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.post-box  .container .container-box .ri-heart-line{
+  margin-top: 170px;
+}
+.post-box  .container .container-box .ri-chat-3-line{
+  margin-top: 170px;
 }

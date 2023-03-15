@@ -342,3 +342,38 @@ body {
 .More{
   margin-top: 100px;
 }
+
+.container{
+  margin-bottom: 200px;
+}
+.imgbox{
+  position: absolute;
+  width: 31%;
+  height: 31%;  
+}
+
+.post-box .container:hover .imgbox{
+  opacity: 0.5;
+
+}
+.post-box .container:hover .content{
+
+ opacity: 1;
+
+}
+.container-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.post-box  .container .container-box .ri-heart-line{
+  margin-top: 170px;
+}
+.post-box  .container .container-box .ri-chat-3-line{
+  margin-top: 170px;
+}
+
+.post-box .post-info .likes .ri-chat-3-line{
+  margin-top: 170px;
+}
